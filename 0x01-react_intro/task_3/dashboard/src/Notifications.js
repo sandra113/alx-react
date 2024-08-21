@@ -14,7 +14,7 @@ export default function Notification() {
       };
 
     return (
-        <div className="Notifications" style={{ position: 'relative', padding: '10px', border: '1px solid black' }}>
+        <div className="Notifications" style={{ position: 'relative', padding: '10px'}}>
           <div className="Notifications-box">
             <button 
         aria-label="Close"
