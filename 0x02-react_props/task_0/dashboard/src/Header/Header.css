@@ -1,7 +1,29 @@
-/* Style for the header */
+/* src/Header/Header.css */
 .App-header {
-    background-color: #282c34;
-    padding: 20px;
-    color: white;
+  background-color: white;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(193, 40, 40);
+  position: relative;
+}
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
   }
-  
+  to {
+    transform: rotate(360deg);
+  }
+}

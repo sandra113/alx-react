@@ -1,0 +1,7 @@
+/* src/App.css */
+.separator {
+  border: 0;
+  height: 2px;
+  background: #f03c3c;
+  margin: 20px 0;
+}

@@ -8,7 +8,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
   },
   devServer: {
-    contentBase: path.resolve(__dirname, 'dist'),
+    static: path.resolve(__dirname, 'dist'),
     hot: true,
   },
   module: {

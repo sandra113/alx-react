@@ -1,0 +1,32 @@
+.Notifications {
+    position: relative;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Notifications-box {
+  border: 1px dotted red;
+  padding: 15px;
+  margin: 0;
+  background-color: white;
+  border-radius: 5px;
+  position: relative; 
+}
+
+.Notifications-box ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .Notifications-box li[data-priority="default"] {
+    color: blue;
+  }
+  
+  .Notifications-box li[data-priority="urgent"] {
+    color: red;
+  }
