@@ -1,0 +1,10 @@
+/* src/Footer/Footer.css */
+.App-footer {
+  background-color: white;
+  padding: 10px;
+  color: black;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  font-weight: 500;
+}
