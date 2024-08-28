@@ -1,18 +1,20 @@
-import React from "react";
-import "./Login.css";
+// src/Login/Login.js
+
+import React from 'react';
+import './Login.css';
 
 function Login() {
   return (
     <React.Fragment>
-      <div className="App-body">
-        <p>Login to access the full dashboard</p>
-        <form>
-          <label htmlFor="email">Email:</label>
-          <input type="email" name="email"></input>
-          <label htmlFor="password">Password:</label>
-          <input type="password" name="password"></input>
-          <button>OK</button>
-        </form>
+      <p>Login to access the full dashboard</p>
+      <div className="login-form">
+        <label htmlFor="email">Email:</label>
+        <input type="email" id="email" name="email" />
+        <br /><br />
+        <label htmlFor="password">Password:</label>
+        <input type="password" id="password" name="password" />
+        <br /><br />
+        <button type="submit">OK</button>
       </div>
     </React.Fragment>
   );

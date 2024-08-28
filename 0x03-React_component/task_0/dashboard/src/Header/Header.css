@@ -1,12 +1,30 @@
+/* src/Header/Header.css */
 .App-header {
-    font-size: 1.4rem;
-    color: #e0354b;
-    display: flex;
-    align-items: center;
-    border-bottom: 3px solid #e0354b;
+  background-color: white;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(193, 40, 40);
+  position: relative;
+  border-bottom: 3px solid #e0354b;
+}
+
+.App-logo {
+  height: 19vmin;
+  pointer-events: none;
+  position: absolute;
+
+  left: 10px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
   }
-  
-  .App-header img {
-    width: 200px;
-    height: 200px;
+  to {
+    transform: rotate(360deg);
   }
+}

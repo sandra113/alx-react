@@ -1,5 +1,22 @@
-export const getFullYear = () => new Date().getFullYear();
+/**
+ * Returns the current year.
+ * @returns {number} The current year.
+ */
 
-export const getFooterCopy = (isIndex) => (isIndex ? "Holberton School" : "Holberton School main dashboard");
+export function getFullYear() {
+    return new Date().getFullYear();
+}
 
-export const getLatestNotification = () => "<strong>Urgent Requirement</strong> - complete by EOD";
+/**
+ * Returns the footer copy based on the isIndex boolean.
+ * @param {boolean} isIndex - If true, return "Holberton School". If false, return "Holberton School main dashboard".
+ * @returns {string} The footer copy.
+ */
+
+export function getFooterCopy(isIndex) {
+    return isIndex? 'Holberton School' : 'Holberton School main dashboard';
+}
+
+export function getLatestNotification() {
+    return '<strong>Urgent requirement</strong> - complete by EOD';
+}
